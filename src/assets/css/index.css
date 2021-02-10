@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body, html{
+    width: 100%;
+    height: 100%;
+}
+#app{
+    height: 100%;
+}
+#module {
+    height:100%;
+}
+.login{
+    background: #1479fc;
+    width:100%;
+    height:100%;
+}
+.login-title{
+    position: relative;
+    top: 20%;
+    margin-left: 30px;
+    color: #fff;
+    font-size: 30px;
+}
+.login-content {
+    position: relative;
+    top: 25%;
+    height:200px;
+    background: #ececec;
+}
+.login-main {
+    text-align: center;
+    margin: 0 auto;
+    width:30%;
+    padding-top: 10px;
+}
+.login-content {
+    position: relative;
+    top: 25%;
+    height:200px;
+    background: #ececec;
+}
+#module .el-container {
+    height:100%;
+}
+#module .el-container .el-menu-item {
+    color:#999
+}
+#module .el-menu-item.is-active {
+    color: #409EFF;
+}
+#module .el-container .el-header {
+    border-bottom: 1px solid #f1f1f1;
+}
+#module .el-container .el-header .exit{
+    margin-top:10px;
+}
+#module .aside {
+    background: #344050;
+}
+#module .aside .el-menu {
+    border-right: solid 1px #344050;
+    background: #344050;
+}
+#module .el-submenu__title {
+    color:#999;
+}
+#module .breadcumb {
+    padding:20px;
+}
+#module .breadcumb ul li span{
+    padding: 0 5px;
+}
+.exit{
+    float: right;
+    margin:10px;
+    padding: 2px 10px;
+    background: #233444;
+    border: none;
+    color: #fff;
+}
+img{
+    width: 700px;
+    height: 200px;
+}
